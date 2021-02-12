@@ -1,5 +1,4 @@
 # leetcode-Problems
 1. (Solution file) Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
-
-Return the running sum of nums.
+    Return the running sum of nums.
 
