@@ -1,0 +1,50 @@
+
+import java.util.*;
+class Solution2 {
+    public int numIdenticalPairs(int[] nums) {
+        int n=nums.length;
+        int count=0;
+        for(int i=0;i<n;i++)
+        {
+         for(int j=i+1;j<n;j++)
+         {
+             if(i<j)
+             {
+                 if(nums[i]==nums[j])
+                 {
+                    count++; 
+                 }
+             }
+         }
+        }
+        System.out.println("output is" + count);
+        return 0;
+    }
+            
+        
+    
+    public static void main(String args[])
+    {
+         
+        Solution2 s= new Solution2();
+        System.out.println("enter total number of elements in the array");
+        
+         Scanner sn1=new Scanner(System.in);
+       int  n= sn1.nextInt(); 
+   int[] b = new int[n];
+
+        for(int i=0;i<n;i++)
+        {
+               
+             
+            Scanner sn=new Scanner(System.in);
+            int input = sn.nextInt();
+            b[i] = input;
+
+        
+        }
+        
+       s.numIdenticalPairs(b);
+        
+    }
+}
