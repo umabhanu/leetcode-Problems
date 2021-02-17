@@ -15,3 +15,5 @@ Consider each adjacent pair of elements [freq, val] = [nums[2*i], nums[2*i+1]] (
 Return the decompressed list.
 
 6. s1:  finding smallest among ten numbers without using arrays
+
+7. sum of all array elements
