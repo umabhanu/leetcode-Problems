@@ -1,0 +1,23 @@
+import java.util.*;
+class prime
+{
+ public static void main(String args[])
+ {
+   int number;
+   System.out.println("enter the number");
+   Scanner sn = new Scanner(System.in);
+   number=sn.nextInt();
+   int m=number/2;
+   if(number==0||number==1)
+   {
+     System.out.println("not a prime");
+   }
+   else
+   {
+     if(number%2==1)
+        System.out.println("is a prime number");
+     else
+        System.out.println("is not a prime number");
+   }
+  }
+ }

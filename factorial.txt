@@ -1,0 +1,38 @@
+import java.util.*;
+class factorial
+{
+
+ static int factorial(int x)
+ {
+   int f=1;
+   for(int i=1;i<=x;i++)
+   {
+     f=f*i;
+   }
+   return f;
+ }
+ static int sum(int a, int b, int c, int d, int e)
+ {
+   int sum=0; 
+   sum= sum+a+b+c+d+e;
+   return sum;
+}
+     
+ public static void main(String args[])
+ {
+   
+     int a= factorial(1);
+     int b= factorial(2);
+     int c= factorial(3);
+     int d= factorial(4);
+     int e= factorial(5);
+     int f=sum(a,b,c,d,e);
+     System.out.println("factorial of 1 is" +a);
+     System.out.println("factorial of 2 is" +b);
+     System.out.println("factorial of 3 is" +c);
+     System.out.println("factorial of 4 is" +d);
+     System.out.println("factorial of 5 is" +e);
+
+     System.out.println(+ f);
+  }
+}
