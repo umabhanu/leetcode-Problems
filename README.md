@@ -17,3 +17,9 @@ Return the decompressed list.
 6. s1:  finding smallest among ten numbers without using arrays
 
 7. sum of all array elements
+8. Problem 10: Given an array of integers sorted in ascending order, find the starting and ending position of a given target value.
+Example: Input: nums = [5,7,7,8,8,10], target = 8
+Output: [3,4]
+Input: nums = [5,6,7,8,9,10], target = 7
+Output: [2,2]
+
