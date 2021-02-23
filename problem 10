@@ -1,1 +1,49 @@
 
+import java.util.*;
+class solution12
+{
+
+  public static void find(int[] nums,int target)
+  {
+    int arrsize=nums.length;
+    int[] newarr= new int[arrsize];
+    for(int i=0;i<arrsize;i++)
+    {
+      if(nums[i]==target)
+      {
+        int input=i;
+        newarr[i]=i;
+      }
+      else
+      {
+       newarr[i]=0;
+      }
+     }
+     for(int z=0;z<newarr.length;z++)
+     {
+      if(newarr[z]!=0)
+         System.out.println("start and end position is" +z);
+      
+     }
+   } 
+  
+  public static void main(String args[])
+  {
+    solution12 s=new solution12();
+    System.out.println("enter number of elements in the array");
+    int n;
+    Scanner scan= new Scanner(System.in);
+    n=scan.nextInt();
+    int target;
+    System.out.println("enter  elements in the array");
+    int[] nums=new int[n];
+    for(int i=0;i<n;i++)
+    {
+      int input=scan.nextInt();
+      nums[i]=input;
+    }
+    System.out.println("enter target value");
+    target=scan.nextInt();
+    s.find(nums,target);
+   }
+}
