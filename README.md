@@ -23,5 +23,6 @@ Output: [3,4]
 Input: nums = [5,6,7,8,9,10], target = 7
 Output: [2,2]
 
-8. Anagram: compare two strings and print whether they are anagram to each other or not.
+8. Anagram: compare two strings and print whether they are anagram to each other or not.\
+9. Missing: Find one missing number in n elements
 
