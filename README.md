@@ -25,4 +25,5 @@ Output: [2,2]
 
 8. Anagram: compare two strings and print whether they are anagram to each other or not.\
 9. Missing: Find one missing number in n elements
+10. Find Index: return last index of each element in the array.
 
