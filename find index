@@ -1,0 +1,39 @@
+import java.util.*;
+import java.io.*;
+class indexof
+{
+
+  public void findindex(int[] a)
+  {
+    int n=a.length;
+    
+    for(int i=0;i<n;i++)
+    {
+      if(a[i]!=a[i+1])
+      {
+        System.out.println("last index of" +a[i] +"is" +" "  +i);
+       }
+       else
+       {
+          continue;
+       }
+     }
+   }
+    
+  public static void main(String args[])
+  {
+    indexof ii=new indexof();
+    System.out.println("enter n value");
+    Scanner sn=new Scanner(System.in);
+    int n=sn.nextInt();
+    System.out.println("enter elements");
+    int[] al=new int[n];
+    for(int i=0;i<n;i++)
+    {
+      int input=sn.nextInt();
+      al[i]=input; 
+     }
+     ii.findindex(al);
+    }
+}
+   
